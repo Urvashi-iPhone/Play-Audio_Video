@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController
+- (IBAction)btn_video:(id)sender;
+- (IBAction)btn_songplay:(id)sender;
 
 
 @end
